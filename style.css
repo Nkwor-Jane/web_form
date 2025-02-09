@@ -54,6 +54,7 @@ body{
     display: flex;
     gap: 10px;
     justify-content: space-evenly;
+    padding: 10px 0;
 }
 .input_flex_2{
     display: flex;
@@ -163,6 +164,12 @@ span{
     top: 380px;
     right: 190px;
 }
+.dis_none{
+    display: block;
+}
+.dis_block{
+    display: none;
+}
 
 @media(min-width:480px) and (max-width:579px){
     .section{
@@ -175,9 +182,10 @@ span{
         justify-content: center;
         align-items: center;
         width: 340px;
-        height: 650px;
+        height: 690px;
         padding:20px;
         border-radius: 0;
+        margin-top: 20px;
     }
     .first-div{
         display: block;
@@ -232,22 +240,25 @@ span{
         width: 30px;
         height: 30px;
         position: absolute;
-        top: 555px;
+        top: 565px;
         right: 120px;
     }
     .svg_div_2{
         width: 30px;
         height: 30px;
         position: absolute;
-        top: 820px;
+        top: 860px;
         right: 120px;
     }
     .dis_none{
         display: none;
     }
+    .dis_block{
+        display: block;
+    }
 }
 
-@media(min-width:580px) and (max-width:778px){
+/* @media(min-width:580px) and (max-width:778px){
     .section{
         flex-direction: row;
     }
@@ -314,4 +325,4 @@ span{
         right: 58px;
     }
 }
-
+ */

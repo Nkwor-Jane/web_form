@@ -1,4 +1,4 @@
-# AltSchool CSS Assignment 3
+# AltSchool CSS Assignment 4
 
 ## Overview
 
@@ -24,11 +24,15 @@ This is an AltSchool CSS Assignment. The task focuses on mastering  layout desig
 
 - Desktop View
   
-![Before View](./novus_watch.png)
+![Before View](./web_form_desktop.png)
+
+- Mobile View
+  
+![After View](./web_form_mobile.png)
 
 ## Live Demo
 
-Check out the live demo [here](/).
+Check out the live demo [here]([/](https://janewebform.netlify.app/)).
 
 ## Contirbuting
 
