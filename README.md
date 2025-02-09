@@ -32,7 +32,7 @@ This is an AltSchool CSS Assignment. The task focuses on mastering  layout desig
 
 ## Live Demo
 
-Check out the live demo [here]([/](https://janewebform.netlify.app/)).
+Check out the live demo [here](https://janewebform.netlify.app/).
 
 ## Contirbuting
 
