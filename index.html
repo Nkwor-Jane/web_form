@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Web Form</title>
+</head>
+<body>
+    <section class="section">
+        
+        <div class="first-div">
+            <div>
+                <img src="./logo.png" alt="Logo">
+            </div>
+            <div>
+                <h3>For Individuals</h3>
+                <div class="first-div-p">
+                    <p>Start benefiting from the wellness experiences.
+                        For companies looking on increasing productivity, and improving organization wellness.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div >
+            <div class="form">
+                <form >
+                    <div class="input-flex">
+                        <div>
+                            <label for="f_name">First Name</label>
+                            <input type="text" name="f_name" placeholder="Tolu" class="active_input">
+                        </div>
+                        <div>
+                            <label for="l_name">Last Name</label>
+                            <input type="text" name="l_name" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="input_flex_2">
+                        <div class="gender_div">
+                            <label for="gender">Gender</label>
+                            <select name="gender" title="gender" class="gender_select">
+                                <option value="select">Select here</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </div>
+                        <div class="gender_div" >
+                            <label for="dob">Date of Birth</label>
+                                <input  name="dob" class="date-container" placeholder="Select here">
+                                <div class="svg_div">
+                                <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"></path>
+                              </svg>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="input-flex">
+                        <div>
+                            <label for="weight">Weight(KG)</label>
+                            <input type="number" name="weight" placeholder="Enter Weight">
+                        </div>
+                        <div>
+                            <label for="weight">Height(CM)</label>
+                            <input type="number" name="height" placeholder="Enter Height">
+                        </div>
+                    </div>
+                <div class="activity">
+                    <label for="activity">Activity Level</label><br>
+                    <select name="activity" title="activity" class="activity">
+                        <option value="select">Select here</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                </div>
+    
+                <div class="password">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" title="password" class="pwd">
+                    <div class="svg_div_2">
+                        <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
+                        </svg>
+                    </div>
+                </div>
+    
+                <button type="submit">Register</button>
+                </form>
+                <p class="terms-p">By clicking Register, you agrees to our <span>Terms of use</span>
+                    and our <span>Privacy Policy</span></p>
+            </div>
+               
+        </div>
+        
+
+    </section>
+</body>
+</html>
